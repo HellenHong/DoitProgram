@@ -1,8 +1,7 @@
+//pdf 파일 업로드.. docx나 pptx hwp 업로드- php 수정
 <?php
-
 	include 'db_config.php';
-
-	$con = mysqli_connect($HOST, $USER, $PASSWORD, $DB_NAME);
+        $con = mysqli_connect("localhost", "root", "비밀번호", "user");
 
 	$encodedFile = $_POST['PDF'];
 
